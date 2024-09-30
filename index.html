@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>BM Consulting - Mas Movil</title>
+    <link rel="icon" href="./imagenes/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+   
+        <header class="vjSO">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           
+            <title>Document</title>    
+        </header>
+        <div class="background-color">
+        <div class="merBloque" bis_skin_checked="1">
+            <!-- Logo -->
+            <div class="logo-container">
+                <div class="logo-main">
+                    <div class="logo-bm"></div>
+                </div>
+            </div>
+            <hr>
+            
+            <!-- Título -->
+            <h2 class=" container" style="text-align: center;">Nueva oferta comercial</h2>
+            
+            <!-- Formulario -->
+            <form class="zIiTN">
+                <!-- Información del cliente -->
+                <div class="primer-bloque container" bis_skin_checked="1">
+                    <div class="blck-ttl" bis_skin_checked="1">
+                        <hr style="height: 2px; background-color: rgb(83, 81, 81);">
+                        <span class="pmr-bloque">Información del cliente</span>
+                    </div>
+                    
+                    <div class="blck-info" bis_skin_checked="1">
+                        <!-- Nombre del cliente -->
+                        <div bis_skin_checked="1">
+                            <div class="blck-nombre" bis_skin_checked="1">
+                                <label>Nombre *</label>
+                                <div class="blck-form" bis_skin_checked="1">
+                                    <input required="" placeholder="Carlos García Pérez" class="" value="">
+                                </div>
+                            </div>
+                            <span class="blck-adv">* Debe rellenar correctamente el nombre del cliente</span>
+                        </div>
+                        
+                        <!-- Email del cliente -->
+                        <div bis_skin_checked="1">
+                            <div class="blck-nombre" bis_skin_checked="1">
+                                <label>Email *</label>
+                                <div class="blck-form" bis_skin_checked="1">
+                                    <input required="" placeholder="cgperez@example.com" class="" value="">
+                                </div>
+                            </div>
+                            <span class="blck-adv">* Debe rellenar correctamente el email del cliente</span>
+                        </div>
+                        
+                        <!-- Teléfono de contacto -->
+                        <div bis_skin_checked="1">
+                            <div class="blck-nombre" bis_skin_checked="1">
+                                <label>Teléfono de contacto</label>
+                                <div class="blck-form" bis_skin_checked="1">
+                                    <input placeholder="600111333" class="" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr style="height: 2px; background-color: rgb(83, 81, 81);">
+                </div>
+            </form>
+        </div>          
+   
+        <div class="main" bis_skin_checked="1">
+            <!-- Contenedor de la oferta -->
+            <div class="YZmfs c-iYZmfs-iBHwdR-margin-bottom" bis_skin_checked="1">
+                
+                <span class="blckTwo-ttl">Oferta</span>
+            </div>
+        </div>
+<div class="blckTwo-ctn container " bis_skin_checked="1">
+    <div class="" bis_skin_checked="1">
+        <div class="blckTwo-tipo" bis_skin_checked="1">
+            <div bis_skin_checked="1">
+                <div class="YZmfsc-iYZmfs-iBHwdR-margin-bottom"bis_skin_checked="1">
+                    <hr class="dLkRd">
+                    <span class="blck-ttlt">TIPO</span>
+                </div>
+                <div bis_skin_checked="1" style="display: flex; margin-right: 50px;">
+                    <div class="" bis_skin_checked="1">
+                        <select required="" class="buttom-gnl"><option disabled="" value="undefined">Seleccione un tipo</option><option value="71548e65-71c2-4e6b-a9d4-d2606eacbfd3">Internet + Fijo + Móvil</option><option value="23751941-7c2a-4ccc-9c72-c9cf8320486c">Internet + Fijo</option>
+                            <option value="e5bfc56c-029d-48f5-84a8-63170dee5ee3">Móvil</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+    <div bis_skin_checked="1">
+            <div class="YZmfs c-iYZmfs-iBHwdR-margin-bottom" bis_skin_checked="1">
+            <hr class="dLkRd">
+            <span class="blck-ttlt">PRODUCTO PRINCIPAL</span>
+            </div>
+            <div class="EfxVn" bis_skin_checked="1">
+                <div bis_skin_checked="1">
+                    <div class="" bis_skin_checked="1">
+                   <label for="product">     
+                    <select required="" class="buttom-gnl" id="product" onchange="updatePrice()">
+                        <option disabled="" value="undefined" selected>Seleccione producto principal</option>
+                        <option value="41.00">Fijo + Fibra 600Mb + Móvil 60GB DIGITAL PRO</option>
+                        <option value="49.00">Fijo + Fibra 1Gb + Móvil 60GB DIGITAL PRO</option>        
+                        <option value="52.00">Fijo + Fibra 1Gb + Móvil 120GB DIGITAL PRO TOTAL</option>
+                    </select>
+                </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="blck-infoPlan">
+        <li class="blck-infoPlan-descrip">
+            <span class="blck-ttltl">Llamadas fijo</span><br>
+            <span class="blck-descrip">ilimitadas</span>
+        </li>
+        <li class="">
+            <span class="blck-ttltl">Móvil</span>  <br> 
+            <span class="blck-descrip">Bono 15 GB + 1000 SMS + 100 min. inter.</span>
+        </li>
+        <li class="">
+            <span class="blck-ttltl">Servicios digitales</span><br>
+            <span class="blck-descrip">Ciberseguridad + Asesores</span>
+        </li>
+        <li class="">
+            <span class="blck-ttltl">Fibra simétrica</span><br>
+            <span class="blck-descrip">500Mb incluida</span>
+        </li>
+        <li class="">
+            <button class="blck-buttom">
+                <span class="blck-ttltl">Mostrar</span>
+                <span class="blck-descrip">Información completa</span>
+            </button>
+        </li>
+    </ul>
+</div>
+<div bis_skin_checked="list-descrip" style="
+border-radius: 4px;
+background-color: #dbd256; width: 100%; padding: 25px;;
+" >                          
+    <div class="benjamin text-center" bis_skin_checked="1">
+        <hr class="dLkRd">
+        <span class="text-center">RESUMEN</span>
+    </div>
+    <ul class="holaaaa" id="mySelect" style="padding: 0;">
+        <li class="gap-prueba">
+            <span>Cuota mensual</span>
+            <span class="dots"></span>
+            <p><span id="price">0,00 €</span></p>
+        </li>
+        <li class="gap-prueba">
+            <span id="promocion 3 meses">Promocion descuento  3 meses </span>
+            <span class="dots"></span>
+            <p><span id="price">0,00 €</span></p>
+        </li>
+        <li class="gap-prueba">   
+            <label for="n" class="nMxLo">Bono 15GB extra PRO (12 facturas)</label>
+            <span class="dots"></span>
+            <label for="" class="nMxLo">- 0,00&nbsp;€</label>
+        </li>
+        <li class="gap-prueba">
+            <div class="azGY" bis_skin_checked="1">
+                <button class="radio" type="button"  id="myButton" onclick="changeValue()"></button>
+                <input type="checkbox" aria-hidden="true" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 18px; height: 18px;" tabindex="-1" value="on"><label for="cuadroo" class=""></label></div><label for="cuadroo" class="nMxLo c-lnMxLo-jAZOnN-disabled-true">Descuento especial portabilidades (12 facturas)</label>
+                <span class="dots"></span>
+                <label for="" id="priceLabel">- 0,00 €</label>     
+        </li>
+         
+               <li class="gap-prueba">
+                <div class="azGY" bis_skin_checked="1">
+                    <button class="radio" type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="cuadroo" class="bVulL"></button>
+                    <input type="checkbox" aria-hidden="true" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 18px; height: 18px;" tabindex="-1" value="on">
+                    <label for="cuadroo" class=""></label>
+                </div>
+                <label for="" class="nMxLo c-lnMxLo-jAZOnN-disabled-true">Descuento gas</label>
+                <span class="dots"></span>
+                <label for="" class="nMxLo c-lnMxLo-jAZOnN-disabled-true">- 0,00&nbsp;€</label>
+        </li>
+   
+    
+    <hr>
+    <div id="container">
+    <li class="sub-true">
+        <span class="BoMJH"></span>
+        <span>Subtotal</span>
+        <span class="dots-two"></span>
+        <p><span id="resultado"></span> </p>
+    </li>
+    <li class="italic-true">
+        <span class="BoMJH" ></span>
+        <span style="font-size: 12px; color: #312f2f;">Después de 12 facturas</span>
+        <span class="dots-two" style="font-size: 10px;"></span>
+       <p><span id="permanencia" style="font-size: 12px;color: #312f2f;">0,00 €</span></p>
+    </li>
+    <li class="sub-truee" style="display: none; margin-top: 10px;font-weight: 15px;">
+       <div style="display: flex;align-items: center;"><span style="font-size: 12px; color: #312f2f;">Después de 3 meses</span>
+        <span class="dots-two" style="font-size: 10px;" ></span>
+       <p><span id="meses" style="font-size: 12px;color: #312f2f;">0,00 €</span></p>
+    </div> 
+    </li>
+</div>
+    </div>
+    
+</div>
+</ul>
+
+</div>
+</div>
+<div class="block-two container" bis_skin_checked="1">
+    <div class="benjamin" bis_skin_checked="1">
+        <hr class="dLkRd">
+        <span class="ifkwO">Líneas adicionales</span>
+    </div>
+</div>
+<div id="block-three" style="margin-bottom: 60px;">
+<div class="block-lineas container" bis_skin_checked="1">
+    <div class="block-lineas-with" bis_skin_checked="1">    
+        <div class="block-lineas-agr">       
+            <div class="block-agr" bis_skin_checked="1">
+                <div bis_skin_checked="1">
+                    <div class="block-sln"  bis_skin_checked="1">
+                        <select required="" class="block-transp" id="lineas" onchange="lineaAdicional()">
+                            <option disabled="" value="undefined" selected>Seleccione línea adicional</option>
+                            <option value="0">SIN LINEA ADICIONAL</option>
+                            <option value="3">Adicional (COMPARTIDA)</option>
+                            <option value="5">Adicional 10GB</option>
+                            <option value="10">Adicional 35GB</option>
+                            <option value="12">Adicional 60GB</option>
+                        </select>
+                    </div>  
+                </div>
+        </div>       
+    <div class="block-border" bis_skin_checked="1">
+        <div class="blck-form" bis_skin_checked="1">
+            <select  style="border-width: 0;height: 50px;text-align: center;background-color: black;
+            color: azure;"   placeholder="Número de líneas" id="lineascount" onchange="lineaAdicional()">
+                <option disabled="" value="undefined" selected>0</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>        
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>    
+        
+        </div>
+        </div>
+ </div>       
+ <ul class="block-two-info"><li class=""><span class="blck-ttltl">Móvil</span>
+    <span class="blck-descrip">ilim. nac. + 1000 SMS + 100 min. inter.</span>
+    </li>
+    <li class="">
+        <button style="border-width: 0;" class="">
+            <span class="blck-ttltl">Mostrar</span>
+            <span class="blck-descrip">Información completa</span>
+        </button>
+    </li>
+</ul>
+
+
+
+<button type="button" class="block-buttom-agregar container" id="addSvaButton">
+    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+        <title>Icono de un +</title>
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+    </svg>
+    <span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Icono de un +</span>Añadir Lineas Adicionales
+</button>
+
+
+
+
+
+
+</div>
+
+
+<ul class="block-three-info" style="border-radius: 4px; background-color: #dbd256; width: 30%;">
+    <li style="display:none" class="block-space">
+        <span>Cuota mensual</span>
+        <span class="dots"></span>
+        <span id="lineasPrice">0,00&nbsp;€</span>
+    </li>
+    <li style="display:none" class="block-space">
+        <label for="-additional-line-[0]-discount-[0]" class="nMxLo">Descuento (12 facturas)</label>
+        <span class="dots"></span>
+        <label for="" id="totalDescuentos">- 0,00&nbsp;€</label>
+    </li>
+    <li class="block-space" style="font-size:18px">
+        <span>Subtotal</span>
+        <span class="dots"></span>
+        <span id="totalDescuento">0,00&nbsp;€</span>
+    </li>
+    <hr>
+    <li class="block-space">
+        <span style="font-size: 12px; margin-top: 5px;">Después de 12 facturas</span>
+        <span class="dots"></span>
+        <span id="lineasdespues" style="font-size: 12px;">0,00&nbsp;€</span>
+    </li>
+</ul>
+            </div>
+            
+            </div>
+          
+
+            
+        </div>
+        <div id="block-three-dos" style="display: none;">
+            <div class="block-lineas container" bis_skin_checked="1">
+                <div class="block-lineas-with" bis_skin_checked="1">    
+                    <div class="block-lineas-agr">       
+                        <div class="block-agr" bis_skin_checked="1">
+                            <div bis_skin_checked="1">
+                                <div class="block-sln"  bis_skin_checked="1">
+                                    <select required="" class="block-transp" id="lineasDos" onchange="lineaAdicionalDos()">
+                                        <option disabled="" value="undefined" selected>Seleccione línea adicional</option>
+                                        <option value="0">SIN LINEA ADICIONAL</option>
+                                        <option value="3">Adicional (COMPARTIDA)</option>
+                                        <option value="5">Adicional 10GB</option>
+                                        <option value="10">Adicional 35GB</option>
+                                        <option value="12">Adicional 60GB</option>
+                                    </select>
+                                </div>  
+                            </div>
+                    </div>       
+                <div class="block-border" bis_skin_checked="1">
+                    <div class="blck-form" bis_skin_checked="1">
+                        <select  style="border-width: 0;height: 50px;text-align: center;background-color: black;
+                        color: azure;"   placeholder="Número de líneas" id="lineascountDos" onchange="lineaAdicionalDos()">
+                            <option disabled="" value="undefined" selected>0</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>        
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>    
+                    
+                    </div>
+                    </div>
+             </div>       
+            
+            
+            
+   </div>
+   <ul class="block-three-info" style="border-radius: 4px; background-color: #dbd256; width: 30%;">
+    <li style="display:none" class="block-space">
+        <span>Cuota mensual</span>
+        <span class="dots"></span>
+        <span id="lineasPriceDos">0,00&nbsp;€</span>
+    </li>
+    <li  style="display:none" class="block-space">
+        <label for="-additional-line-[0]-discount-[0]" class="nMxLo">Descuento (12 facturas)</label>
+        <span class="dots"></span>
+        <label for="" id="totalDescuentosDos">- 0,00&nbsp;€</label>
+    </li>
+    <li class="block-space" >
+        <span style="font-size:18px">Subtotal</span>
+        <span class="dots"></span>
+        <span id="totalDescuentoDos">0,00&nbsp;€</span>
+    </li>
+    <hr>
+    <li class="block-space">
+        <span style="font-size: 12px; margin-top: 5px;">Después de 12 facturas</span>
+        <span class="dots"></span>
+        <span id="lineasdespuesDos" style="font-size: 12px;">0,00&nbsp;€</span>
+    </li>
+</ul>
+    </div>
+      <div><button type="button" class="block-buttom-agregar container" id="addSvaButtones">
+         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" 
+         stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" 
+         xmlns="http://www.w3.org/2000/svg" style="margin-top:20px">
+        <title>Icono de un +</title>
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+    </svg>
+    <span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Icono de un +</span>Añadir Lineas Adicionales
+</button></div>
+       <div id="block-three-tres" style="display: none;margin-top:40px">
+            <div class="block-lineas container" bis_skin_checked="1">
+                <div class="block-lineas-with" bis_skin_checked="1">    
+                    <div class="block-lineas-agr">       
+                        <div class="block-agr" bis_skin_checked="1">
+                            <div bis_skin_checked="1">
+                                <div class="block-sln"  bis_skin_checked="1">
+                                    <select required="" class="block-transp" id="lineasTres" onchange="lineaAdicionalTres()">
+                                        <option disabled="" value="undefined" selected>Seleccione línea adicional</option>
+                                        <option value="0">SIN LINEA ADICIONAL</option>
+                                        <option value="3">Adicional (COMPARTIDA)</option>
+                                        <option value="5">Adicional 10GB</option>
+                                        <option value="10">Adicional 35GB</option>
+                                        <option value="12">Adicional 60GB</option>
+                                    </select>
+                                </div>  
+                            </div>
+                    </div>       
+                <div class="block-border" bis_skin_checked="1">
+                    <div class="blck-form" bis_skin_checked="1">
+                        <select  style="border-width: 0;height: 50px;text-align: center;background-color: black;
+                        color: azure;"   placeholder="Número de líneas" id="lineascountTres" onchange="lineaAdicionalTres()">
+                            <option disabled="" value="undefined" selected>0</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>        
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>    
+                    
+                    </div>
+                    </div>
+             </div>       
+      
+</div>
+<ul class="block-three-info" style="border-radius: 4px; background-color: #dbd256; width: 30%;">
+    <li class="block-space" style="display:none">
+        <span>Cuota mensual</span>
+        <span class="dots"></span>
+        <span id="lineasPriceTres">0,00&nbsp;€</span>
+    </li>
+    <li class="block-space" style="display:none">
+        <label for="-additional-line-[0]-discount-[0]" class="nMxLo">Descuento (12 facturas)</label>
+        <span class="dots"></span>
+        <label for="" id="totalDescuentosTres">- 0,00&nbsp;€</label>
+    </li>
+    <li class="block-space">
+        <span style="font-size:18px">Subtotal</span>
+        <span class="dots"></span>
+        <span id="totalDescuentoTres">0,00&nbsp;€</span>
+    </li>
+    <hr>
+    <li class="block-space">
+        <span style="font-size: 12px; margin-top: 5px;">Después de 12 facturas</span>
+        <span class="dots"></span>
+        <span id="lineasdespuesTres" style="font-size: 12px;">0,00&nbsp;€</span>
+    </li>
+</ul>
+
+</div>
+
+
+            </div>
+        
+            
+        </div>                
+        
+                
+<div class="block-three container" bis_skin_checked="1">
+                <div class="YZmfs c-iYZmfs-iBHwdR-margin-bottom" bis_skin_checked="1">
+                    <hr class="dLkRd">
+                    <span class="ifkwO">SVA</span>
+                </div>
+            </div>
+                
+            <div class="block-lineas-two container" bis_skin_checked="1">
+                <div style="width: 71.6%;" class="block-lineas-agr" bis_skin_checked="1">
+                    <div class="block-lineas block-margin" bis_skin_checked="1">
+                        <div bis_skin_checked="1">
+                            <div class="block-sln" bis_skin_checked="1">
+                                <select id="selectSva" required="" class="block-transp">
+                                    <option disabled="" value="undefined" selected>Seleccione SVA</option>
+                                    <option value="0">NO SVA</option>
+                                    <option value="6">Agile TV Premium</option>
+                                    <option value="12">Agile TV Extra</option>
+                                </select>
+                            </div>
+                            <span class="blck-adv">* Debe seleccionar un producto SVA</span>
+                        </div>
+                        <button id="updateButton" style="border-width: 0; height: 50px; text-align: center; background-color: transparent; color: rgb(238, 16, 16);" class="buttom-block">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <title>Icono de eliminar</title>
+                                <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+                            </svg>
+                            <span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Icono de eliminar</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="text-star" style="border-radius: 4px; background-color: #dbd256; width: 25%;">
+                    <li class="block-space">
+                        <span>Cuota mensual</span>
+                        <span class="dots"></span>
+                        <span id="cuotaSva">0,00&nbsp;€</span>
+                    </li>
+                    <hr>
+                    <li class="block-space">
+                        <span>Subtotal</span>
+                        <span class="dots"></span>
+                        <span id="SubtotalSva">0,00&nbsp;€</span>
+                    </li>
+                </ul>
+            </div>
+            
+                    <button type="button" class="block-buttom-agregar container"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <title>Icono de un +</title>
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                    <span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Icono de un +</span>Añadir SVA</button>
+                    <div class="container" bis_skin_checked="1">
+                        <div class="YZmfs c-iYZmfs-iBHwdR-margin-bottom" bis_skin_checked="1">
+                            <hr style="margin-bottom: 40px;">
+                            <span class="resumen-titulo">RESUMEN</span>
+                        </div>
+                    </div>            
+    <div class="resumen-descrip  container" style="display:none" >
+        <ul class="resumen background-color-green" style="width: 30%;">
+            <li class="sub-true">
+                <input type="checkbox" aria-hidden="true" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 18px; height: 18px;" tabindex="-1" value="on">
+                <label for="-price-discount-[0]" class="xbenja">Descuento multisede</label>
+                <span class="dots"></span>
+                <label for="-price-discount-[0]" class="">- 0,00&nbsp;€</label>
+            </li>
+            <hr>
+            <li class="sub-true">
+                <span>Total</span>
+                <span class="dots"></span>
+                <span id="totalFinal">,00&nbsp;€</span>
+            </li>
+             <li class="italic-true">
+                <span>Después de 12 facturas</span>
+                <span class="dots"></span>
+                <span id="totalSinDescuentos">,00 €</span>
+             </li>
+             <li class="sub-trues" style="display: none; margin-top: 10px;font-weight: 15px;">
+               <div style="display: flex;align-items: center;"> <span>Después de 3 facturas</span>
+                <span class="dots-two"></span>
+                <span id="totalSinDescuento">,00 €</span>
+                </div>
+             </li>
+             <li class="sub-truese" style="display: none; margin-top: 10px;font-weight: 15px;">
+                <div style="display: flex;align-items: center;"> <span>Después de 3 facturas</span>
+                 <span class="dots-two"></span>
+                 <span id="totalSinDescuentose">,00 €</span>
+                 </div>
+              </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="buttom-center" bis_skin_checked="1">
+    <button type="button" class="block-buttom-agregar">
+        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <title>Icono de añadir</title>
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+        <span style="position: absolute; border: 0px; width: 1px; height: px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Icono de añadir</span> Añadir sede</button>
+</div>
+<div class="block-end" bis_skin_checked="1">
+    <hr class="dLkRd">
+    <div style="display: flex;
+    flex-direction: column;
+    align-items: flex-end;" bis_skin_checked="1">
+<div bis_skin_checked="1" style="width: 35%;display: flex;justify-content: center;">
+   
+    <span class="block-impuestos">Impuestos</span>
+</div>
+<div role="radiogroup" id="impuestos" aria-required="false" dir="ltr" class="block-impuestos-vertical" tabindex="0" style="outline: none;">
+    <div class="impuesto">
+        <input type="radio" id="tax-iva" name="impuesto" value="0.21" checked>
+        <label for="tax-iva">
+            IVA (21%)
+        </label>
+    </div>
+    <div class="impuesto">
+        <input type="radio" id="tax-ipsi-ceuta" name="impuesto" value="0.10">
+        <label for="tax-ipsi-ceuta">
+            IPSI (Ceuta) (10%)
+        </label>
+    </div>
+    <div class="impuesto">
+        <input type="radio" id="tax-ipsi-melilla" name="impuesto" value="0.08">
+        <label for="tax-ipsi-melilla">
+            IPSI (Melilla) (8%)
+        </label>
+    </div>
+    <div class="impuesto">
+        <input type="radio" id="tax-igic" name="impuesto" value="0.07">
+        <label for="tax-igic">
+            IGIC (7%)
+        </label>
+    </div>
+</div>
+
+
+<hr class="dLkRd">
+<div class="resumen-descrip container" bis_skin_checked="1" >
+    <div class="resumen background-color-green"  style="width: 30%; margin-bottom: 40px;" bis_skin_checked="1">
+        
+        <span class="ifkwO">Resumen negociación</span>
+    
+    <ul class="JvRAh c-dJvRAh-fGHEql-price_negotiation_box-true">
+        <li class="sub-true">
+            <span>Sede 1</span>
+            <span class="dots"></span>
+            <span id="totalconDescuento">,00&nbsp;€</span>
+        </li>
+        <li class="sub-true">
+            <span id="tipoImpuesto"></span>
+            <span class="dots"></span>
+            <span id="precioDescuento"></span>
+        </li>
+        <hr>
+        <li class="sub-true">
+            <span>Total a pagar</span>
+            <span class="dots"></span>
+            <span id="totalApagar"></span>
+        </li>
+        <li class="sub-trueese" style="display: none; margin-top: 10px;">
+           <div id="sub-trueese" style="display: flex; align-items: center;">
+            <span style="font-size: 18px; color: #312f2f;">Después de 3 meses</span>
+            <span class="dots-two" style="font-size: 10px;"></span>
+            <p><span id="mesesFinal" style="font-size: 18px;color: #312f2f;">0,00 €</span></p>
+         </div>
+        </li>
+        <li class="sub-trueeese" style="display: none; margin-top: 10px;">
+            <div id="sub-trueeese" style="display: flex; align-items: center;">
+            <span style="font-size: 18px; color: #312f2f;">Después de 3 meses</span>
+            <span class="dots-two" style="font-size: 10px;"></span>
+            <p><span id="mesesFinalis" style="font-size: 18px;color: #312f2f;">0,00 €</span></p>
+        </div>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-orientation="vertical" data-state="visible" class="bPWAS" style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 80.76190476190476px;" bis_skin_checked="1"><div data-state="visible" class="YWRUZ" style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, 75.4286px, 0px);" bis_skin_checked="1">
+
+</div>
+</div>
+</div>
+</div>
+ 
+</main>
+
+<script>
+    // Mostrar block-three-dos al hacer clic en el botón
+    document.getElementById('addSvaButton').onclick = function() {
+        var blockTwo = document.getElementById('block-three-dos');
+        blockTwo.style.display = 'block';
+    }
+    document.getElementById('addSvaButtones').onclick = function() {
+        var blockTree = document.getElementById('block-three-tres');
+        blockTree.style.display = 'block';
+    }
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./js/node.js"></script>
+    </body>
+</html>
+
+
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GBWDYX0PNK&amp;l=ga4DataLayer"></script><iframe style="visibility: hidden; position: fixed; left: -1000px; top: 0px;" width="0" height="0"></iframe>
